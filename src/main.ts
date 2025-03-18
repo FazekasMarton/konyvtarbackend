@@ -21,5 +21,6 @@ async function bootstrap() {
   app.setViewEngine('ejs');
   
   await app.listen(3000);
+  console.log(`App is running on port 3000`)
 }
 bootstrap();
